@@ -1,0 +1,19 @@
+body {
+  background: -webkit-linear-gradient(left, #6600bf, #FFCCFF, #990099)
+}
+
+.btn {
+  height: 100px;
+  width: 400px;
+  background-color: grey;
+  border: 1px solid transparent;
+  color: white;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: grey;
+  border: 1px solid white;
+  opacity: 0.6;
+  box-shadow: 0 4px 16px #202020;
+}
