@@ -1,0 +1,23 @@
+.nav {
+  height: 70px;
+  width: 1600px;
+  border: 1px solid black;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text {
+  text-align: right;
+}
+
+ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+ul {
+  display: inline;
+  text-align: right;
+}
