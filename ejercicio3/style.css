@@ -1,0 +1,79 @@
+.blue {
+  background-color: #66B2FF;
+  height: 300px;
+  padding: 100px;
+}
+
+.white {
+  background-color: white;
+  height: 20px;
+}
+
+.sun {
+  animation: sun 3s ease-in-out 0s infinite;
+}
+
+@keyframes sun {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+h1, p {
+  color: white;
+  font-family: sans-serif;
+}
+
+.text {
+  animation: text 3s ease 0s infinite;
+}
+
+@keyframes text {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.people {
+  position: absolute;
+  left: 1200px;
+}
+
+.umbrella {
+  position: absolute;
+  right: 1200px;
+  animation: umbrella 3s linear 0s infinite;
+}
+
+@keyframes umbrella {
+  0% { margin-right: 10rem;}
+  100% { margin-right: 0;}
+}
+
+.ball {
+  position: absolute;
+  bottom: -180px;
+  animation: ball 3s linear 0s infinite;
+}
+
+@keyframes ball {
+  0% { margin-left: 10rem;}
+  100% { margin-left: 0;}
+}
+
+.palm {
+  position: absolute;
+  left: 43%;
+  top: 104vh;
+  width: 100px;
+}
