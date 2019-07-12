@@ -10,7 +10,7 @@
 }
 
 .sun {
-  animation: sun 3s ease-in-out 0s infinite;
+  animation: sun 1s ease-in-out 0s infinite;
 }
 
 @keyframes sun {
@@ -30,7 +30,7 @@ h1, p {
 }
 
 .text {
-  animation: text 3s ease 0s infinite;
+  animation: text 1s ease 0s infinite;
 }
 
 @keyframes text {
@@ -38,6 +38,12 @@ h1, p {
     bottom: 0;
     opacity: 0;
   }
+
+  50% {
+    bottom: 0;
+    opacity: 0;
+  }
+
   100% {
     bottom: 0;
     opacity: 1;
@@ -46,34 +52,62 @@ h1, p {
 
 .people {
   position: absolute;
-  left: 1200px;
+  left: 900px;
 }
 
 .umbrella {
   position: absolute;
   right: 1200px;
-  animation: umbrella 3s linear 0s infinite;
+  animation: umbrella 1s linear 0s infinite;
 }
 
 @keyframes umbrella {
-  0% { margin-right: 10rem;}
+  0% { margin-right: 10rem;
+      opacity: 0;
+  }
+  60% { margin-right: 10rem;
+        opacity: 0;
+  }
+  80% { margin-right: 0;}
   100% { margin-right: 0;}
 }
 
 .ball {
   position: absolute;
-  bottom: -180px;
-  animation: ball 3s linear 0s infinite;
+  left: 1100px;
+  animation: ball 1s linear 0s infinite;
 }
 
 @keyframes ball {
-  0% { margin-left: 10rem;}
+  0% { margin-left: 10rem;
+      opacity: 0;
+  }
+  60% { margin-left: 10rem;
+      opacity: 0;
+  }
+  80% { margin-left: 0;}
   100% { margin-left: 0;}
 }
 
 .palm {
   position: absolute;
   left: 43%;
-  top: 104vh;
+  top: 68vh;
   width: 100px;
+  animation: palm 1s ease-in-out 0s infinite;
+}
+
+@keyframes palm {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  70% {
+    bottom: 0;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
 }
